@@ -36,58 +36,58 @@ const sidebarData = [
   },
   {
     path: "/admin/categories",
-    displayText: "Categories",
+    displayText: "Categorization",
     icon: <MdOutlineCategory />,
     childrens: [
       {
-        path: "/admin/groups",
+        path: "/admin/categorization/groups",
         displayText: "Groups",
         icon: <LiaLayerGroupSolid />,
 
         childrens: [
           {
-            path: "/admin/groups/add",
+            path: "/admin/categorization/groups/add",
             displayText: "Add Group",
             icon: <MdAdd />,
           },
           {
-            path: "/admin/groups/all",
+            path: "/admin/categorization/groups/all",
             displayText: "All Groups",
             icon: <CiCircleList />,
           },
         ],
       },
       {
-        path: "/admin/categories",
+        path: "/admin/categorization",
         displayText: "Categories",
         icon: <LiaLayerGroupSolid />,
 
         childrens: [
           {
-            path: "/admin/categories/add",
+            path: "/admin/categorization/categories/add",
             displayText: "Add Category",
             icon: <MdAdd />,
           },
           {
-            path: "/admin/categories/all",
+            path: "/admin/categorization/categories/all",
             displayText: "All Categories",
             icon: <CiCircleList />,
           },
         ],
       },
       {
-        path: "/admin/subcategories",
+        path: "/admin/categorization/subcategories",
         displayText: "Sub Categories",
         icon: <LiaLayerGroupSolid />,
 
         childrens: [
           {
-            path: "/admin/subcategories/add",
+            path: "/admin/categorization/subcategories/add",
             displayText: "Add Subcategory",
             icon: <MdAdd />,
           },
           {
-            path: "/admin/groups/all",
+            path: "/admin/categorization/groups/all",
             displayText: "All subcategories",
             icon: <CiCircleList />,
           },

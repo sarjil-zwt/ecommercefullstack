@@ -1,18 +1,12 @@
 import React from "react";
 import Addresses from "../pages/user/Addresses/Addresses";
 import Profile from "../pages/user/profile/Profile";
-import AllGroup from "../pages/admin/groups/AllGroup/AllGroup";
-import AddGroup from "../pages/admin/groups/AddGroup/AddGroup";
-import AddSubCategory from "../pages/admin/subcategories/AddSubCategory/AddSubCategory";
 import PaymentSuccess from "../pages/user/paymentSuccess/PaymentSuccess";
 import Checkout from "../pages/user/checkout/Checkout";
 import CartPage from "../pages/user/cart/CartPage";
 import AdminAddProduct from "../pages/admin/products/AdminAddProduct/AdminAddProduct";
-import AddCategory from "../pages/admin/categories/AddCategory/AddCategory";
-import AdminDashboard from "../pages/admin/AdminDashboard/AdminDashboard";
 import AdminAllProducts from "../pages/admin/products/AdminAllProducts/AdminAllProducts";
 import AllProducts from "../pages/user/products/AllProducts/AllProducts";
-import AllCategories from "../pages/admin/categories/AllCategories/AllCategories";
 import NotFound404 from "../pages/NotFound404/NotFound404";
 import Login from "../features/login/Login";
 import SignUp from "../features/SignUp.jsx/SignUp";
@@ -26,6 +20,12 @@ import SingleOrder from "../pages/user/orders/SingleOrder/SingleOrder";
 import AddCompany from "../pages/admin/companies/AddCompany/AddCompany";
 import AllCompanies from "../pages/admin/companies/AllCompanies/AllCompanies";
 import Temp from "../pages/admin/products/AdminAllProducts/Temp";
+import AddGroup from "../pages/admin/categorization/groups/AddGroup/AddGroup";
+import AllGroup from "../pages/admin/categorization/groups/AllGroup/AllGroup";
+import AddCategory from "../pages/admin/categorization/categories/AddCategory/AddCategory";
+import AllCategories from "../pages/admin/categorization/categories/AllCategories/AllCategories";
+import AddSubCategory from "../pages/admin/categorization/subcategories/AddSubCategory/AddSubCategory";
+import AdminDashboard from "../pages/admin/admindashboard/AdminDashboard";
 
 const AllRoutes = ({ loading }) => {
   return (

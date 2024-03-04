@@ -75,7 +75,7 @@ function App() {
        
       )} */}
 
-      <AdminSidebar />
+      {/* <AdminSidebar /> */}
 
       <Header />
       <AllRoutes loading={loading} />
