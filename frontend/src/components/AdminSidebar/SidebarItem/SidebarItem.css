@@ -1,0 +1,32 @@
+.sidebaritem {
+  /* padding-left: 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+}
+
+.sidebaritemtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+  color: rgb(152, 153, 172) !important;
+  transition: 300ms all;
+}
+
+.sidebaritemtitle.paddingleft {
+  padding-left: 25px; /* Adjust the left padding for child items */
+}
+
+.sidebaritemtitle > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebaritemtitle:hover {
+  background-color: #1e293a;
+  color: rgb(255, 255, 255) !important;
+}

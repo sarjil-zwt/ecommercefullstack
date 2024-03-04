@@ -1,0 +1,81 @@
+.accordion-body {
+  padding: 0 !important;
+  background-color: #233044 !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.accordion-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  /* padding: 10px 0 10px 0px !important; */
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-right: 10px !important;
+  cursor: pointer !important;
+  color: rgb(152, 153, 172) !important;
+  transition: 300ms all !important;
+  background-color: #233044 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  gap: 10px !important;
+  box-shadow: none !important;
+}
+.accordion-button.collapsed::after {
+  color: rgb(189, 189, 189) !important;
+}
+
+.accordion-button > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  color: white !important;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button:hover {
+  background-color: #1e293a !important;
+  color: rgb(255, 255, 255) !important;
+}
+.accordion {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.accordion-header {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.accordion-header > button::after {
+  display: none !important;
+}
+/* 
+  .accordion-header:hover {
+    background-color: #1e293a !important;
+  } */
+.accordion-item {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #233044 !important;
+}
+
+.accordionexpandmoreicon {
+  transform: rotateZ(0deg);
+  transition: transform 0.3s !important;
+}
+
+.accordion-button.collapsed > .accordionexpandmoreicon {
+  transform: rotateZ(-90deg);
+}
+
+.activelink {
+  color: white !important;
+}

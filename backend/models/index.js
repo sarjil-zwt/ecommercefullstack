@@ -252,6 +252,7 @@ db.Order.belongsTo(db.ShippingType, {
   foreignKey: "uShippingTypeId",
 });
 db.Order.belongsTo(db.Address, {
+  
   foreignKey: "uShippingAddressId",
 });
 db.Order.belongsTo(db.Address, {

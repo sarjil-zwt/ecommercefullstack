@@ -6,6 +6,7 @@ import singleProductSlice from "./features/singleProductSlice";
 import addressSlice from "./features/addressSlice";
 import groupSlice from "./features/groupSlice";
 import orderSlice from "./features/orderSlice";
+import sidebarSlice from "./features/sidebarSlice";
 
 export const store = configureStore({
   reducer: {
@@ -16,5 +17,6 @@ export const store = configureStore({
     addressState: addressSlice,
     groupsState: groupSlice,
     ordersState: orderSlice,
+    sidebarState: sidebarSlice,
   },
 });
